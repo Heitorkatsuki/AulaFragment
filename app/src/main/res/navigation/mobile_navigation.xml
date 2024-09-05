@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.aula1.fragmentaula.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_anuncio"
+        android:name="com.aula1.fragmentaula.ui.anuncio.AnuncioFragment"
+        android:label="@string/title_anuncios"
+        tools:layout="@layout/fragment_anuncio" />
+
+    <fragment
+        android:id="@+id/navigation_social"
+        android:name="com.aula1.fragmentaula.ui.social.SocialFragment"
+        android:label="@string/title_social"
+        tools:layout="@layout/fragment_social" />
+
+    <fragment
+        android:id="@+id/navigation_notificacao"
+        android:name="com.aula1.fragmentaula.ui.notificacao.NotificacaoFragment"
+        android:label="@string/title_notificacoes"
+        tools:layout="@layout/fragment_notificacao" />
+
+    <fragment
+        android:id="@+id/navigation_perfil"
+        android:name="com.aula1.fragmentaula.ui.perfil.PerfilFragment"
+        android:label="@string/title_perfil"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

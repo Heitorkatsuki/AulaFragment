@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentAula</string>
+    <string name="title_home">Home</string>
+    <string name="title_anuncios">Anuncios</string>
+    <string name="title_social">Social</string>
+    <string name="title_notificacoes">Notificacoes</string>
+    <string name="title_perfil">Perfil</string>
+</resources>
